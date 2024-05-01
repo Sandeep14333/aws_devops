@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Predictor</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>College Predictor</h1>
+        <form id="collegePredictorForm">
+            <label for="gpa">GPA:</label>
+            <input type="number" step="0.01" id="gpa" name="gpa" required>
+            <label for="satScore">SAT Score:</label>
+            <input type="number" id="satScore" name="satScore" required>
+            <label for="actScore">ACT Score:</label>
+            <input type="number" id="actScore" name="actScore" required>
+            <label for="extracurricular">Extracurricular Activities:</label>
+            <input type="number" id="extracurricular" name="extracurricular" required>
+            <input type="submit" value="Predict">
+        </form>
+        <div id="result"></div> <!-- This is where the prediction result will be displayed -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
